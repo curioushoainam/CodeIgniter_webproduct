@@ -19,7 +19,7 @@
 			</div>
 
 			<div class="content">
-				<?php echo $temp; ?>
+				<?php $this->load->view($temp); ?>
 			</div>
 
 			<div class="right">
